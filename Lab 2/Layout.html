@@ -1,35 +1,100 @@
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Table</h1>
-    <table style="width:100%">
-   <tr>
-     <th bgcolor='#00FF00' width='500' colspan='300' align='left'>Page header</th>
-     </tr>
-     <tr>
-     <th bgcolor='#FF0000' align='let'rowspan='4'>Menu</th>
-     </tr>
-     <tr>
-     <th bgcolor='#00E6FF' align='left'colspan='50' rowpan='1'>Advertisement space</th>
-   </tr>
-   <tr>
-     <td bgcolor='#FFEF00' align='left' rowspan='2'>Main  content
+<!DOCTYPE html>
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml" xmlns:position="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
 
-     <p>(Text and images)<p></td>
-    </tr>
-    <tr>
-     <td bgcolor='#FF00E6' align='center' rowspan='1' height='100'>Blog</td>
+    <style>
+        .page_header{
+            position:relative;
+            background-color: blue;
+            color:black;
+            width:700px;
 
-    </tr>
-    <tr>
+        }
 
-     <td bgcolor='#FF0055' align='left' colspan='100'>Footer</td>
-   </tr>
+        .Ad{
+            left:150px;
+            position:relative;
+            background:gold;
+            color: black;
+            row-span: 4;
+            column-span: 3;
+            width:550px;
 
-  </table>
-  </body>
-</html>>
+        }
+        .Main{
+            text-align: center;
+            left:150px;
+            top:-140px;
+            position:relative;
+            background: lightblue;
+            color: black;
+            row-span: 2;
+            column-span: 3;
+            height:120px;
+            width:399px;
+
+        }
+        .Blog{
+            text-align: center;
+            position:relative;
+            background: red;
+            color: black;
+            row-span: 2;
+            column-span: 3;
+            left:550px;
+            top:-260px;
+            width:150px;
+            height:120px;
+        }
+        .footer{
+
+            top:-265px;
+            position:relative;
+            background: purple;
+            color: black;
+            row-span: 2;
+            column-span: 3;
+            width:700px;
+        }
+        .Menu{
+            position:relative;
+            background: orangered;
+            color: black;
+            row-span: 2;
+            column-span: 3;
+            top:-18px;
+            width:149px;
+            height:140px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="page_header">
+        <Strong>Page header</Strong>
+    </div>
+    <div class="Ad">
+        Advertisement space
+    </div>
+    <div class="Menu">
+    Menu
+    </div>
+
+    <div class="Main">
+        Main  content
+        <br>
+        <br>
+        <br>
+        (Text and images)
+    </div>
+   <div class="Blog">
+       Blog
+   </div>
+   <div class="footer">
+       Footer
+   </div>
+</body>
+</html>
