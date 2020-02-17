@@ -1,0 +1,28 @@
+.page_header{
+    position:relative; /*position*/
+    background-color: blue; /*Background color*/
+    color:black; /*Text color*/
+    width:700px; /*Width*/
+    border: 1px; /*border*/
+    font-family: "Baskerville Old Face"; /*Font*/
+    text-align:center; /*text align*/
+
+
+}
+
+.Ad {
+    left: 150px;
+    position: relative;
+    background: gold;
+    color: black;
+    row-span: 4;
+    column-span: 3;
+    width: 550px;
+    border: 1px;
+    font-family: "fantasy";
+}
+p:first-letter{
+    font-size: 200%; /*First letter pesudo element*/
+    color: red;
+}
+
