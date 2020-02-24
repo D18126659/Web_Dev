@@ -1,13 +1,15 @@
-.centered{
-    position:relative; /*position*/
-    left:200px;
-    height:75px;
-    background-color: whitesmoke; /*Background color*/
-    color:black; /*Text color*/
-    width:800px; /*Width*/
-    border: 1px; /*border*/
-    font-family: "Baskerville Old Face"; /*Font*/
-    text-align:center; /*text align*/
-    appearance: none;
+label { width: 100px;
+    }
+p{color:red;}
+
+.imp1{position:relative;
+    left:150px;
+    top:-35px;
+    }
+.imp2{position:relative;
+    left:150px;
+    top:-65px;
 }
+
+
 

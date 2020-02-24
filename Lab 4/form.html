@@ -9,29 +9,39 @@
 
 </head>
 <body>
-    <h2>Enter your gender</h2>
-    <div class="centered">
-    <form>
 
+<h2>Lab4 Form</h2>
+<form action="/action_page.php">
+    <p> * Required field</p><br>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Please enter your name" required><br><div class="imp1"><p>*</p></div>
+
+    <label for="Email">Email:</label><br>
+    <input type="text" id="email" name="Email" value=""><br><div class="imp1"  required> ><p>*</p></div>
+
+    <label for="website">Website:</label><br>
+    <input type="text" id="website" name="website" value=""><br><br>
+
+    <label for="comment"> comment: </label>
+    <textarea id="comment" name="user_comment"></textarea>
+
+</form>
+    <form>
+        <h3>Gender</h3>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
         <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
+        <label for="other">Other</label><br><br>
+
+        <button>Submit</button>
 
     </form>
-    </div>
+
 
     <br>
-    <h2>Please enter your information</h2>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
-        <input type="submit" value="Submit">
-    </form>
+
 
 
 </body>
