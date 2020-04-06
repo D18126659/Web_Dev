@@ -1,3 +1,7 @@
+.main{position:absolute;
+     left:400px;
+     margin:10px; }
+
 .Retro{
     position:relative;
     left:120px;
@@ -10,14 +14,15 @@
 }
 
 .Sidemenu{
+    position:absolute;
     margin:10px;
-    left:30px;
+    left:15px;
 }
 .currentArticles{
     position:relative;
     margin:10px;
-    left:180px;
-    top:-470px;
+    left:200px;
+    top:-55px;
     font-size:14px;
 }
 
@@ -25,30 +30,45 @@
     position:absolute;
     top:180px;
     left:200px;
+    font-size:14px;
 }
 .txt2{position:absolute;
-    top:420px;
+    top:380px;
     left:365px;
+    font-size:14px;
    }
 .txt3{
+    position:relative;
     margin:8px;
+    top:135px;
+    left:20px;
+
 }
 .txt4{
     position:relative;
     top:-40px;
     left:10px;
+    font-size:14px;
+
+}
+
+.txt5{
+    position:absolute;
+    left:10px;
+    top:30px;
+    font-size:14px;
+
 }
 .img1{
     position:absolute;
-    left:610px;
-    top:250px;
-
+    left:560px;
+    top:210px;
 }
 
 .img2{
     position:absolute;
     left:220px;
-    top:435px;
+    top:400px;
 
 }
 .color{
@@ -59,4 +79,4 @@ color:lightblue;
 width:550px;
     position:absolute;
 left:220px;
-top:420px;}
+top:390px;}
